@@ -1,7 +1,8 @@
 ---
 
-layout: default
+layout: work
 title: Work
+order: 1
 ---
 
 
