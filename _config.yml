@@ -1,8 +1,8 @@
-title: DXD Jekyll
+title: Carlos Soares Portfolio
 author: Carlos Soares
 email: carlossoares.cg@gmail.com
-description: > # this means to ignore newlines until "exclude"
- This website is being created as an exercise for DXD post graduation.
+description: > # this means to ignore newlines until "exclude" 
+  Digital Design projects from FBAUL Post Graduation.
 
 exclude:
   - Gemfile
