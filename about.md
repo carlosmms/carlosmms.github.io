@@ -4,13 +4,9 @@ layout: default
 title: About
 order: 2
 ---
+![about](/assets/images/about.png)
+<p><strong>About Carlos Soares</strong></p>
+<p>1989, based in Lisbon. </p>
+<p> Experienced Digital Designer in creating multiplatform aplications solutions from web to wearables and gaming consoles. Also leading a design team on agency side for the past few years and freelance. </p>
+<p>Currently working on customer and user research, problem mapping, solution ideation and experimentation, prototyping and usability testing. Crafting the highest value to the users and the product. Continuous collaboration with multiple departments and product teams in research, development, and innovation.</p> 
 
-
-<div class="container">
-  <h1>:D</h1>
-
-  <p><strong>Welcome to about page</strong></p>
-  <p>Interested in DXD post graduation?? <a href="http://dxd.belasartes.ulisboa.pt/">Explore here.</a></p> 
-  <p>To know more about Jekyll go to this <a href="https://jekyllrb.com/">page.</a></p> 
-
-</div>
