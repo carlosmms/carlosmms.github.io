@@ -202,6 +202,33 @@ textarea:focus:-ms-input-placeholder { color:transparent; }
 
 
 
+.wrap-contact2 {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}
+
+
+.button {
+  background-color: #800D69;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 200px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 50px 20px;
+  }
+
+
+
+@media screen and (min-width: $on-large) {
+
 
 .wrap-contact2 {
   width: 400px;
@@ -211,6 +238,24 @@ textarea:focus:-ms-input-placeholder { color:transparent; }
   margin: auto;
 }
 
+.button {
+  background-color: #800D69;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 300px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 50px 20px;
+  }
+
+
+
+
+  }
 
 
 .contact2-form {
@@ -322,19 +367,6 @@ textarea.input2 + .focus-input2::after {
   width: 100%;
 }
 
-.button {
-  background-color: #800D69;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 300px;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 50px 20px;
-  }
 
 
 
