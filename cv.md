@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: cv
 title: CV
 order: 2
 ---
 
 
-<iframe src="https://docs.google.com/file/d/12mavvaaoTSHieqWC4DbhQgfch8edJIaA/preview" width="100%" height="600px"></iframe>

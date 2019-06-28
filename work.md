@@ -1,7 +1,7 @@
 ---
 
 layout: work
-title: Work
+title: Projects
 order: 1
 ---
 
