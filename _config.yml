@@ -2,7 +2,7 @@ title: Carlos Soares Portfolio
 author: Carlos Soares
 email: carlossoares.cg@gmail.com
 description: > # this means to ignore newlines until "exclude" 
-  Digital Design projects from FBAUL Post Graduation.
+  Website built for LTD 2, FBAUL Post Graduation.
 
 exclude:
   - Gemfile
@@ -17,6 +17,9 @@ date_format: "%b %-d, %Y"
 
 # generate social links in footer
 social_links:
+  behance: carlosmms
+  linkedin: carlosmiguelsoares
+  facebook: carlosmms
   twitter: carlosmmsoares
   github:  carlosmms
   # facebook:
