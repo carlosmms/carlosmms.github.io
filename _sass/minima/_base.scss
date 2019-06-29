@@ -28,7 +28,7 @@ dl, dd, ol, ul, figure {
 animation-play-state: paused;
  -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
-  transition: all 0.8s ease; 
+  transition: all 0.25s ease; 
 
   text-shadow: -1px 1px 1px #9cd7cf;
 }
@@ -51,6 +51,21 @@ section:hover {
   letter-spacing: 0px;
 
   }
+
+
+  @media screen and (min-width: $on-large) {
+
+section:hover {
+ animation-play-state: running;
+
+  color: #0000ff00;
+  font-size: 3.5em; 
+  text-shadow: none;
+  letter-spacing: 0px;
+
+  }
+
+}
 
 @keyframes shad-anim {
   0% {background-position: 0 0}
