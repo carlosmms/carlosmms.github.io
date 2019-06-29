@@ -3,4 +3,4 @@ layout: home
 
 ---
 
-# Digital problem solver that gives a damn.
+Digital problem solver that gives a damn.
