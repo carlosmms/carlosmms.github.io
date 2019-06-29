@@ -1,4 +1,4 @@
-title: Carlos Soares Portfolio
+title: Carlos Soares
 author: Carlos Soares
 email: carlossoares.cg@gmail.com
 description: > # this means to ignore newlines until "exclude" 
@@ -9,6 +9,9 @@ exclude:
   - Gemfile.lock
   - README.md
   - .gitignore
+
+# Site settings
+url: "http://localhost:4000/" 
 
 # Date format for posts
 # refer to http://shopify.github.io/liquid/filters/date/ if you
