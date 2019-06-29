@@ -27,7 +27,9 @@ Supervisor, guidance and management of the Festival's audio-visual team. Respons
 
 ### Skills/Tools
 
-Information Architecture, Wireframes & Prototypes, User Research, Visual Design, Motion Design. / Sketch, Illustrator, Axure, Invision, Unity, Cinema 4D, After Effects. / HTML, CSS, JavaScript, Jekyll  
+Information Architecture, Wireframes & Prototypes, User Research, Visual Design, Motion Design.  
+Figma, Sketch, Illustrator, Axure, Invision, Unity, Cinema 4D, After Effects.  
+HTML, CSS, JavaScript, Jekyll, Markdown
 <br>
 
 ### Education
