@@ -5,7 +5,7 @@ order: 2
 ---
 
 
-## Work Experience
+### Work Experience
 **Senior Product Designer**, *September 2018 – Present. OutSystems, Portugal.*  
 Responsible for customer and user research, problem mapping, solution ideation and experimentation, prototyping and usability testing. Crafting the highest value to the users and the product. Continuous collaboration with multiple departments and product teams.
 Freelance UX/UI Designer, April – September 2018. Remote.
@@ -22,32 +22,38 @@ Pre-production of 3D animation targeting children (1 to 10y) to raise awareness 
 
 **Audio Visual Director**, *December 2012 - May 2013. MONSTRA | Animation Festival, Portugal.*  
 Supervisor, guidance and management of the Festival's audio-visual team. Responsible for the media content creation and exhibition before and during the Festival.  
+<br>
 
 
-## Skills/Tools
+### Skills/Tools
 
-Information Architecture, Wireframes & Prototypes, User Research, Visual Design, Motion Design. / Sketch, Illustrator, Axure, Invision, Unity, Cinema 4D, After Effects. / HTML, CSS, JavaScript, Jekyll 
+Information Architecture, Wireframes & Prototypes, User Research, Visual Design, Motion Design. / Sketch, Illustrator, Axure, Invision, Unity, Cinema 4D, After Effects. / HTML, CSS, JavaScript, Jekyll  
+<br>
 
+### Education
 
-## Education
+**PG Digital Experience Design, 2018 – Present**.*Faculdade de Belas-Artes ULisboa, Portugal.*  
+**User Experience Design, 2016 – 2016**. *General Assembly, London, UK.*  
+**BA in Computer Animation, 2009 – 2012**. *ULHT, Portugal.*  
+**Attendance in BS in Computer Science**, *2006 – 2009. FCT-UNL, Portugal.*  
+<br>
 
-PG Digital Experience Design, 2018 – Present. Faculdade de Belas-Artes ULisboa, Portugal.
-User Experience Design, 2016 – 2016. General Assembly, London, UK.
-BA in Computer Animation, 2009 – 2012. ULHT, Portugal.
-Attendance in BS in Computer Science, 2006 – 2009. FCT-UNL, Portugal.
+### Further Education
 
+**The Human Mind and Usability, Application Design for Web and Desktop, The One-Person UX Team Tool Box**, *2018 Nielsen Norman Group*  
+**Motion Graphics**, *2014 Escape Studios*  
+**Gamification**, *2012 coursera.org*  
+**Video Mapping**, *2012 EDIT*  
+**Anima Campus**, *2011 Animated Dreams Festival*  
+**Animating with Processing**, *2010 MONSTRA Animation Festival.*  
+<br>
 
-Further Education
+### Volunteer 
 
-The Human Mind and Usability, Application Design for Web and Desktop, The One-Person UX Team Tool Box, 2018 Nielsen Norman Group / Motion Graphics, 2014 Escape Studios / Gamification, 2012 coursera.org / Video Mapping, 2012 EDIT / Anima Campus, 2011 Animated Dreams Festival / Animating with Processing, 2010 MONSTRA | Animation Festival.
+**Audio-visuals Assistant**, *September 2014, 2015, 2016. Trojan Horse was a Unicorn, Portugal.*  
+**Workshops Assistant**, *March 2011. MONSTRA | Animation Festival, Portugal.*  
+<br>
 
+### Languages
 
-Volunteer 
-
-Audio-visuals Assistant, September 2014, 2015, 2016. Trojan Horse was a Unicorn, Portugal.
-Workshops Assistant, March 2011. MONSTRA | Animation Festival, Portugal.
-
-
-Languages
-
-Portuguese, Native. Spanish, Basic. English, Vantage / Upper Intermediate.
+**Portuguese**, Native. **Spanish**, Basic. **English**, Vantage / Upper Intermediate.

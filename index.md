@@ -1,5 +1,6 @@
 ---
 layout: home
-title: Work
+
 ---
 
+### **My latest Work**
