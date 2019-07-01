@@ -18,12 +18,21 @@ layout: default
 
   </header>
 
+ {%- if page.prototype -%}
   <div class="post-content e-content">
     {{ content }}
   </div>
   <div class="resp-container">
     <iframe class="resp-iframe" src="{{ page.prototype }}" allowfullscreen></iframe>
   </div>
+ {%- endif -%}
+
+  {%- if page.behance -%}
+  <br>
+    <h3><a href="{{ page.behance }}">check this project on behance</a></h3>
+  
+ {%- endif -%}
+
 
 </article>
 
