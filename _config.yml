@@ -11,7 +11,7 @@ exclude:
   - .gitignore
 
 # Site settings
-url: "http://localhost:4000/" 
+url: "https://carlosmms.github.io/" 
 
 # Date format for posts
 # refer to http://shopify.github.io/liquid/filters/date/ if you
