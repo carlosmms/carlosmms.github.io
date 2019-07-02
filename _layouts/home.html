@@ -13,12 +13,14 @@ layout: default
 		</div>	
   
 
-  
-<center>My latest Work</center> 
 
-    <ul class="post-list-home">
-       {% for post in site.posts %}
+<center>My latest Work</center> 
+<div class="featured">
+      {% for post in site.posts %}
       {% if post.featured == true %} 
+    <a href="{{ post.url }}">
+    <ul class="post-list-home">
+   
       <li style="background-image:{{ post.featuredbanner }};">
        
       </li>
@@ -26,7 +28,8 @@ layout: default
   {% endfor %}
 
     </ul>
-
+    </a>
+</div>
 <center><a class="page-link" href="/work.html">all projects</a></center>
 
 
