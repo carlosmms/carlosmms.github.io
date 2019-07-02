@@ -31,18 +31,19 @@ h2{
 
   letter-spacing: 1.5px;
   
-    content: attr(data-shadow);
-    font-size: 1.5em; 
-    background-image:
-     linear-gradient(45deg, transparent 45%, pink 65%, green 55%, transparent 0);
-    background-size: 0.6em 0.3em;
-    -webkit-background-clip: text;
-   color: #ffffff;
-    animation: shad-anim 15s linear infinite;
-animation-play-state: paused;
- -webkit-transition: all .5s ease;
+  content: attr(data-shadow);
+  font-size: 1.5em; 
+  background-image:
+  linear-gradient(45deg, transparent 45%, pink 65%, green 55%, transparent 0);
+  background-size: 0.6em 0.3em;
+  -webkit-background-clip: text;
+  color: #ffffff;
+  animation: shad-anim 15s linear infinite;
+  animation-play-state: paused;
+  -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all 0.5s ease; 
+  font-weight: 600;
 
   text-shadow: -3px -1px 2px #000;
 }
@@ -70,7 +71,7 @@ section:hover {
 
 
   section{
- font-size: 2.5em;
+ font-size: 2em;
 
   }
 

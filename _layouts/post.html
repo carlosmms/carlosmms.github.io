@@ -27,6 +27,16 @@ layout: default
   </div>
  {%- endif -%}
 
+  {%- if page.prototypemobile -%}
+  <div class="post-content e-content">
+    {{ content }}
+  </div>
+  <center>
+  <iframe width="420" height="916" src="{{ page.prototypemobile }}" frameborder="0" allowfullscreen></iframe>
+  </center>
+  
+ {%- endif -%}
+
   {%- if page.behance -%}
   <br>
     <h3><a href="{{ page.behance }}">check this project on behance</a></h3>
