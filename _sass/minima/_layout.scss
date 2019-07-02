@@ -33,6 +33,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  margin-left: 10px;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -246,8 +247,13 @@
   @include relative-font-size(1.75);
 }
 
-.post-list {
 
+
+.post-list a{
+  color:white;
+}
+
+.post-list {
   margin-left: 0;
   list-style: none;
   display: flex;
@@ -260,13 +266,29 @@
   > li {
     margin-bottom: $spacing-unit;
 background-color: blue;
-width: 410px;
+width: 100%;
+height: 100px;
 padding: 20px;
 margin: 10px;
+
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom: $spacing-unit;
+ 
+  width: 100%;
+   border-radius: 50px 20px;
+   background-size: cover;
  
   }
 }
 
+.post-list
+{ > li:hover {
+ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ border-radius: 45px 15px;
+ -webkit-transform: rotate(0.1deg);
+}
+}
 
 .post-list-home {
   margin-left: 0;
@@ -294,8 +316,8 @@ margin: 10px;
 .post-list-home
 { > li:hover {
  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
- border-radius: 40px 15px;
- -webkit-transform: rotate(0.3deg);
+ border-radius: 45px 15px;
+ -webkit-transform: rotate(0.2deg);
 }
 }
 @media screen and (min-width: $on-large) {
@@ -320,6 +342,28 @@ margin: 10px;
   }
 }
 }
+
+
+@media screen and (min-width: $on-large) {
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+
+  > li {
+    margin-bottom: $spacing-unit;
+ 
+  width: 44%;
+
+  }
+}
+}
+
 
 @media screen and (max-width: $on-large) {
 .featured {
