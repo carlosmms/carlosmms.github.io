@@ -4,6 +4,8 @@ layout: about
 title: About
 order: 3
 ---
+## About
+
 ![about](/assets/images/about.png)
 
 1989, based in Lisbon. Experienced Digital Designer in creating multiplatform aplications solutions from web to wearables and gaming consoles. Also leading a design team on agency side for the past few years and freelance. 

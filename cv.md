@@ -4,6 +4,7 @@ title: CV
 order: 2
 ---
 
+## CV
 
 ### Work Experience
 **Senior Product Designer**, *September 2018 – Present. OutSystems, Portugal.*  
