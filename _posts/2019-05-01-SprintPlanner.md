@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "SprintPlanner"
-author: Carlos Soares, Neuza Branco
+author: Carlos Soares
 wrapper: article
 color: '#5cb777'
-featuredbanner: 'url(/assets/images/Spotify/banner.png)'
+smallbanner: 'url(/assets/images/sprintplanner/smallbanner.png)'
 behance: 'https://www.behance.net/gallery/81604129/Spotify-Friends-Playlist'
 prototype: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKfWiyMdxZVLpdkKgBOvdfB3k%2FMockups%3Fnode-id%3D1%253A20%26viewport%3D178%252C445%252C0.15573294460773468%26scaling%3Dmin-zoom'
 
