@@ -116,6 +116,7 @@ iframe {
 
   .page-link:hover{
   text-decoration: underline overline;
+  color: #111;
   }
 
   @media screen and (min-width: $on-medium) {
@@ -280,7 +281,7 @@ iframe {
 
   > li {
     margin-bottom: $spacing-unit;
-background-color: blue;
+background-color: grey;
 width: 100%;
 height: 100px;
 padding: 20px;
@@ -460,7 +461,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       padding: $spacing-unit / 4;
       
     }
-    &:hover .svg-icon { fill: currentColor; }
+    &:hover .svg-icon { fill: black; }
   }
 }
 
