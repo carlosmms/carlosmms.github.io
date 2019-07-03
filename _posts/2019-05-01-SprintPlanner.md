@@ -9,57 +9,119 @@ prototypemobile: 'https://invis.io/NZSSU8NMAH5'
 
 ---
 
-![banner](/assets/images/Spotify/banner.png)
+![banner](/assets/images/sprintplanner/banner.png)
+
+SprintPlanner application offers a solution that accelerates and optimizes the process of calculating the effort of tasks for each Sprint. This process is directly connected with development teams productivity and accuracy.
+Learn about my journey and design process of building a user interface for this mobile-app and more about task estimation.
 
 
-After spending a few hours exploring Spotify on Apple Carplay inside a 2017
-Volkswagen Polo we encountered limitations that were resulting in constant distraction for
-the driver while driving that are multiplied when driving with friends when trying to change
-songs.  
 
-We tackled this by providing a playlist that everyone likes inside a car we will allow
-the driver to focus on the road and without having his phone privacy exposed.
-We based our initial research around the topics: 
-Automotive digital product design / State of In-Car UX / Social concepts of Spotify / Apple CarPlay Guidelines / Spotify vs Distractions for drivers / Dangers of UI in cars.  
+### Problem
 
-Quickly we faced a huge gap between product guidelines and what is designed and available in the market for car dashboards. Risk free behaviour is not enforced and apps in apple carplay are still dependent on the use of the phone.
+*“Scrum teams attend a lot of meetings: daily Scrums, sprint reviews, sprint retrospectives … the list goes on. Add to this ongoing training, workshops, one-on-one sessions, and the most time-consuming of all sprint planning meeting. This creates the perfect situation for overworked but underperforming teams.”* — Pritam Tamang
 
-We decided to map more in detail the experience flow to map distraction moments while using Spotify with friends in a car:
+While participating in a few sprint planning meetings I started to find a few patterned problems of a broken experience and process for accurate and fast estimation I defined a plan to improve it:
 
-![flow](/assets/images/Spotify/flow.png)
+**Vision and Goals:** Definition of what is going to be built, main objectives, target audience.  
+**Competitive Analysis:** Search of other web-apps that offer similar services to know their pros and cons and see how to make this service better.  
+**Look and Feel Research:** See what is trending and what will be the graphic references to create the style guides.  
+**User Journeys:** Define user-flows of the users and objectives.  
+**Wireframes:** Focusing on the functionality and layouts do the main screens.  
+**Style Tile:** Define typography, colors, icons, buttons, and states.  
+**Mockups:** Create all the screens of the web-app and apply the look and file of the style tiles.  
+**Clickable Prototype:** Built with Invision to be able to showcase different user flows.  
+
+### Vision and Goals
+
+After a few interviews and doing user observations in teams doing sprint plannings I was able to get more context and conclude that the current setup for estimations in development companies lacks speed and accuracy due to dependency on several tools to be used for task effort estimations:  
+
+Team Forecaster — team allocation.  
+Excel Sheets — reference board of team effort per task.  
+Jira — access current tasks on the backlog.  
+Planning Poker — synchronized estimation of task effort with remote colleagues.  
+
+The **vision** is to remove the need for accessing these tools and make teams more agile, Team Captains and Developers will become more productive.
+
+Framed variables: team availability, previous estimation references vs current tasks, information is not centralised and the estimation biases of non-sync and remote.
+
+![draft](/assets/images/sprintplanner/draft.png)  
+
+### Competitive Analysis
+
+After researching for several possible competitors that could address the same goal or vision I came across tools like [Scrum Poker](https://scrumpoker.online/), [Planning Poker](https://www.planningpoker.com/) and different approaches to plan sprints like [Magic Estimation](https://www.wibas.com/scrum/magic-estimation/en), but they keep failing to centralize information, optimize connectivity with Jira and easily work with remote teams.
+
+There is no current full solution in this market to compete with SprintPlanner. The closest competitor, Poker Planning, with slower results, has a starting price of 15€ per month.
+
+My business value approach to win space in the market will be to offer a service with 60 days free trial period, after that time ends, to continue using the app the Company will need to unlock each team for the amount of 5€ per month, there is no limit regarding the number of team members using the app.
+
+### Look and Feel Research
+
+![look](/assets/images/sprintplanner/look.png)
+
+I focused my research on tasks and project management applications and end up following these references for a cleaner and lighter experience.
+
+### User Journey's
+
+I mapped the user flows and main objectives of both my users that will use the application: the developer and team captain.
+
+This helped me to realize that there are different behaviors and expectations while using the app.
+
+**Team Captain** objectives:  
+Selects tasks from the backlog for the team to estimate  
+Approves estimations  
+Access to the Reference Board  
+Defines tasks to be included in Sprint  
+Overview of Sprint Effort and Team Capacity  
+
+![flowcapt](/assets/images/sprintplanner/flowcapt.png)
+
+**Developer objectives:**  
+Defines own availability for Sprint  
+Estimates Tasks  
+Access to the Reference Board  
+Overview of Sprint Effort and Team Capacity  
+
+![flowdevflowdev](/assets/images/sprintplanner/flowdev.png)
 
 
-And idealize it should be a linear experience without interruptions or distractions:
+### Wirefarmes
 
-![flowideal](/assets/images/Spotify/flowideal.png)
+![wireframes](/assets/images/sprintplanner/wireframes.png)
 
-### Solution Ideation
-
-After exploring several approaches like “pairing bluetooth connection”, “hotspot” and “friends activity feed” to this problem we ended up by focusing on a feature that wouldn’t need any interaction from other devices and could work with minimal interaction to start playing music that everyone can enjoy.
-
-![draft](/assets/images/Spotify/draft.png)
-![draft](/assets/images/Spotify/draft2.jpg)
-
-We envisioned a new feature for apple carplay and mobile that generates a playlist based on a mix containing songs from the public libraries of friends that are physically close to you, that will listen to music in the same event. Example of event: driving with friends, party, dinner, study group. Promote safe driving on car dashboard whenever risky behaviour occurs. 
-With the current high usage of facebook accounts linked to Spotify, we will use this to find friends nearby and retrieve their their accounts to spotify to get their public libraries. 
-We presented this idea to 10 users of Spotify and 8 would use this feature.  
+This phase helped me to quickly test functionality and layouts and be able to change it without wasting time with color, fonts or iconography.
 
 
-### Proposal Outcomes
+### Style Guide
 
-Reduces interactions and distractions inside the car, avoiding accidents.
-No risk of privacy breach to find music while driving.
-Saved time deciding which music to hear.
-A easy way to find music everyone will like.
-Avoid use of phone at all, bring people closer. 
-This feature can be used in multiple scenarios.
-Places Spotify more compliant with Apple Carplay guidelines that would now respect the following: “Eliminate app interactions on iPhone when CarPlay is active. CarPlay is the best and safest way to interact with apps while driving, and interactions should occur using the car’s built-in controls and display. Any required setup on iPhone should occur before the vehicle is in motion.” https://developer.apple.com/design/human-interface-guidelines/carplay/interaction/iphone/  
+![guide](/assets/images/sprintplanner/guide.png)
+
+Here I defined my initial color pallet, font, buttons, and their states, iconography, input labels and states. This is meant to be scalable, as you keep working you use it as a reference to keep your style consistent and you keep adding here your new elements. For complex projects, it is highly advisable to use a [Design System.](https://medium.com/r/?url=https%3A%2F%2Fwww.nngroup.com%2Fcourses%2Fdesign-systems%2F)
 
 
-### Business Model 
+### Mockups
 
-We aim to promote this feature in Carplay for all users (Free subscription) being our focus group and minimized dependencies to quickly get metrics of success. 
-	For the ones that have Premium subscription they’ll be able to save generated playlists and also generate nearby friends playlists on Mobile to use in other environments.  
+![mockups](/assets/images/sprintplanner/mockups.png)
+
+In this phase, I combined my main pages from the wireframes and style tile and created high fidelity interfaces of my product. After achieving a level of certainty in the main pages I move on to create additional screens that include different states of the buttons or specific user flows that I want to demonstrate.
+
+<br>
+The prototype built in Invision is helpful in many ways. It allows you to test the user flows defined with other people than the ones creating the product, that are often highly biased and quickly do iterations before the development phase. It’s a better way to share the design since it’s a preview of how it will work.   
+I hope you’ve found this helpful, good luck with your projects!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
