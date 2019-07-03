@@ -4,36 +4,32 @@ layout: default
 ---
 
 <div class="home">
-		 <div class="index-banner">
-		 	<section>
-			<div class="vertical-center">
-			<p> <h7 data-shadow=''>DIGITAL PROBLEM SOLVER THAT GIVES A DAMN.</h7> </p> 
+	<div class="index-banner">
+		<section>
+		  <div class="vertical-center">
+			 <p> <h7 data-shadow=''>DIGITAL PROBLEM SOLVER THAT GIVES A DAMN.</h7> </p> 
 			</div>
 		</section>
-		</div>	
-  
-
-
-<center><h2>My latest Work</h2></center> 
-<div class="featured">
-      {% for post in site.posts %}
-      {% if post.featured == true %} 
+	</div>	
+  <center>
+    <h2>My latest Work</h2>
+  </center> 
+  <div class="featured">
+    {% for post in site.posts %}
+    {% if post.featured == true %} 
     <a href="{{ post.url }}">
     <ul class="post-list-home">
-   
       <li style="background-image:{{ post.featuredbanner }};">
-       
       </li>
- {% endif %}
-  {% endfor %}
-
+    {% endif %}
+    {% endfor %}
     </ul>
     </a>
-
-<br>
-</div>
-<center><a class="page-link" href="/work.html"><h4>all projects</h4></a></center>
-
-
-
+    <br>
+  </div>
+  <center>
+    <a class="page-link" href="/work.html">
+      <h4>all projects</h4>
+    </a>
+  </center>
 </div>

@@ -2,34 +2,22 @@
 layout: default
 
 ---
-  
 
-
-    
-
-{{ content }}
-   
-    
-
-    <ul class="post-list">
-         
-       {% for post in site.posts %}
-       <a href="{{ post.url }}"> 
-      <li style="background-image:{{ post.smallbanner }};">
-                {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-
-     <a href="{{ post.url }}"> 
+{{ content }}   
+<ul class="post-list">         
+  {% for post in site.posts %}
+  <a href="{{ post.url }}"> 
+    <li style="background-image:{{ post.smallbanner }};">
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+      <a href="{{ post.url }}"> 
         <h5>{{ post.date | date: date_format }}</h5>
-
         <h2>{{ post.title }}
         </h2>
-         <h5>{{ post.author }}</h5>
+        <h5>{{ post.author }}</h5>
       </a>
-        
-      </li>
-</a>
+    </li>
+  </a>
   {% endfor %}
-
-    </ul>
+</ul>
 
   
