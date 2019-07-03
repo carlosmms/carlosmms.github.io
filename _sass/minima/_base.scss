@@ -37,7 +37,7 @@ h2{
   linear-gradient(45deg, transparent 45%, pink 65%, green 55%, transparent 0);
   background-size: 0.6em 0.3em;
   -webkit-background-clip: text;
-  color: #ffffff;
+  color: $white-color;
   animation: shad-anim 15s linear infinite;
   animation-play-state: paused;
   -webkit-transition: all .5s ease;
