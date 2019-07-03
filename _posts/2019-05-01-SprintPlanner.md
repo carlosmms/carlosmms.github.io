@@ -44,7 +44,7 @@ The **vision** is to remove the need for accessing these tools and make teams mo
 
 Framed variables: team availability, previous estimation references vs current tasks, information is not centralised and the estimation biases of non-sync and remote.
 
-![draft](/assets/images/sprintplanner/visio.png)  
+![draft](/assets/images/sprintplanner/vision.png)  
 
 ### Competitive Analysis
 
