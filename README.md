@@ -14,7 +14,7 @@ Responsive web design/Media queries - Designing mobile first allowed to quickly 
 
 Github - Allowed me to have all my changes organised with description, to be able to quickly test in production in different devices and revert changes if needed.
 
-Flexbox - I’ve used flex to organise my projects into a responsive grid, I’ve found flex to give more flexibility into future changes into my projects list layout.
+Flexbox - I’ve used flex to organise my projects into a responsive grid, I’ve found flex to give more flexibility into future changes into my projects content, while Grid, which I chose not to use is more foccused on layout. 
 
 Form/Formspree.io - I’ve chosen to use a form, since it’s very annoying to click on an email link on a website and open the default software that majority of users don’t have setup or don’t use. 
 
