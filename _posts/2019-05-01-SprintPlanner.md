@@ -63,5 +63,3 @@ We aim to promote this feature in Carplay for all users (Free subscription) bein
 
 
 
-### Prototype
-

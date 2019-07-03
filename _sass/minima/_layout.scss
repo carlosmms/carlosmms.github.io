@@ -27,6 +27,18 @@
     border: 0;
 }
 
+@media screen and (max-width: $on-large) {
+iframe {
+  display: none;
+}
+.resp-container {
+  padding-top: 0%;
+  display: none;
+}
+}
+
+
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
@@ -34,6 +46,7 @@
   margin-bottom: 0;
   float: left;
   margin-left: 10px;
+  text-decoration: none;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -95,12 +108,17 @@
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
+    text-decoration: none;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 0;
     }
     margin-left: 20px;
+  }
+
+  .page-link:hover{
+  text-decoration: underline;
   }
 
   @media screen and (min-width: $on-medium) {
